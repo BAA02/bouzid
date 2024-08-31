@@ -1,0 +1,43 @@
+
+input{
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 3px solid #5578d8;
+}
+img{
+    border-radius: 10px;
+}
+input[type=submit]{
+    background: #224194;
+    color: white;
+}input[type=submit]:hover{
+    background: #5578d8;
+}
+body{
+    background: #5578d86b;
+}
+@media screen and (min-width: 640px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #5578d86b;
+    }
+   img{
+    width: 80%;
+    border-radius: 10px;
+   }
+   header{
+    border-right: 8px solid #5578d8;
+    margin-right: 40px;
+   }
+   input{
+    margin-right: 50px;
+   }
+}
